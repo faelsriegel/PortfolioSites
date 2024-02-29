@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bourbon-neat": "^4.0.0"
+  },
+  "devDependencies": {
+    "bourbon": "^7.3.0"
+  }
+}
