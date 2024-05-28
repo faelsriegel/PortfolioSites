@@ -17,6 +17,13 @@ Importando a Fonte Geometria
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Madina';
+  src: url('fonts/geometria/Madina.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 /* -------------------------------- 
 
 Primary style
@@ -573,17 +580,20 @@ Main Components
 /* Telas entre 768px e 992px (tablets) */
 @media only screen and (max-width: 768px), (max-height: 700px) {
   .text h2 {
-    font-size: 45px;
+    font-size: 60px !important;
+
   }
 
   .text .para1 {
-    max-width: 800px;
-    font-size: 30px;
+    font-size: 16px !important;
+    margin-top: 10px;
   }
 
   .text .para2 {
-    max-width: 500px;
-    margin-top: 180px;
+    font-size: 16px !important;
+    max-width: 600px;
+    margin-top: 60px;
+    margin-bottom: -20px;
   }
 
   /* Exemplo: tablets com largura ou altura reduzidas */
@@ -597,6 +607,7 @@ Main Components
 
   .text .para1 {
     max-width: 350px;
+    font-size: 30px;
   }
 
   /* Exemplo: celulares grandes com largura ou altura reduzidas */
@@ -803,9 +814,6 @@ Main Components
   transform: translateY(-10px);
   transition: .3s;
 }
-
-
-
 
 .sec-9 .text-img .mobile-app .column2 {
   text-align: center;
@@ -1138,4 +1146,90 @@ Main Components
 
 .icons1 .instagram:hover .fa-instagram {
   color: #C32AA3 !important;
+}
+
+
+
+
+/* Seção com fundo claro */
+.light-background h1, .light-background p {
+  color: #000;
+  /* Preto */
+  font-family: 'Geometria-Medium', sans-serif;
+}
+
+/* Seção com fundo escuro */
+.dark-background h1, .dark-background p {
+  color: #fff;
+  /* Branco */
+  font-family: 'Geometria-Medium', sans-serif;
+}
+
+/* Ajustes específicos por seção */
+.img-1 .cd-content h1, .img-1 .cd-content p {
+  font-family: 'Geometria-Medium', sans-serif;
+  color: #333;
+  /* Cinza escuro */
+}
+
+.img-2 .cd-content h1, .img-2 .cd-content p {
+  font-family: 'Geometria-Medium', sans-serif;
+  color: #fff;
+  /* Branco */
+}
+
+.img-3 .cd-content h1, .img-3 .cd-content p {
+  font-family: 'Geometria-Medium', sans-serif;
+  color: #444;
+  /* Cinza médio */
+}
+
+.img-4 .cd-content h1, .img-4 .cd-content p {
+  font-family: 'Madina', sans-serif !important;
+  color: #fff;
+  /* Branco */
+}
+
+
+
+.cd-content {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.cd-vertical-nav {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cd-vertical-nav li {
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+.cd-vertical-nav a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.cd-vertical-nav a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.cd-vertical-nav .inactive {
+  display: none;
 }
