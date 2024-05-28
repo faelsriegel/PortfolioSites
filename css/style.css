@@ -505,6 +505,7 @@ Main Components
   max-width: 800px;
   font-family: 'Geometria-Light', sans-serif !important;
   font-weight: 300 !important;
+  letter-spacing: -0.5px !important;
 }
 
 .text .para2 {
@@ -515,6 +516,7 @@ Main Components
   max-width: 800px;
   font-family: 'Geometria-Medium', sans-serif !important;
   font-weight: 500 !important;
+  letter-spacing: -0.5px !important;
 }
 
 
@@ -524,6 +526,7 @@ Main Components
   font-family: 'Geometria-Medium', sans-serif;
   font-weight: 500;
   border: 1px solid #d1d0d0;
+  letter-spacing: -0.5px !important;
 
 }
 
