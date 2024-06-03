@@ -1224,13 +1224,13 @@ Main Components
 /* --------------------------------------------------------------------------------------------- */
 /* Aplica a fonte 'Madina' apenas aos elementos da seção .img-4 */
 .img-3 .cd-content {
-  font-family: 'Madina', sans-serif;
+  /* font-family: 'Madina', sans-serif; */
 }
 
 /* Estiliza o texto do h1 com a fonte 'Madina' */
 .img-3 .cd-content h1 {
-  font-family: 'Madina' !important;
-  color: #fff;
+  /* font-family: 'Madina' !important; */
+  color: #474646;
   font-size: 60px !important;
   /* cor do texto */
 }
@@ -1239,7 +1239,7 @@ Main Components
 .img-3 .cd-content p {
   font-family: 'Geometria-Light', sans-serif !important;
   color: #222020;
-  font-size: 20px !important;
+  font-size: px !important;
   line-height: 1.2;
   /* cor do texto */
 }
@@ -1263,7 +1263,7 @@ Main Components
 .img-4 .cd-content p {
   font-family: 'Geometria-Light', sans-serif !important;
   color: #fff;
-  font-size: 20px !important;
+  font-size: 18px !important;
   line-height: 1.2;
   /* cor do texto */
 }
