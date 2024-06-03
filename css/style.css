@@ -5,23 +5,26 @@ Importando a Fonte Geometria
 -------------------------------- */
 @font-face {
   font-family: 'Geometria';
-  src: url('fonts/geometria/Geometria-Light.ttf') format('truetype');
+  src: url('../fonts/Geometria-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Geometria';
-  src: url('fonts/geometria/Geometria-Medium.ttf') format('truetype');
+  src: url('../fonts/Geometria-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Madina';
-  src: url('fonts/geometria/Madina.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
+  src: url('../fonts/Madina.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis.otf') format('truetype');
 }
 
 /* -------------------------------- 
@@ -72,12 +75,11 @@ Main Components
 }
 
 .cd-header h1 {
-  font-family: 'Geometria', sans-serif !important;
+  font-family: 'Geometria-Medium', sans-serif !important;
   width: 90%;
   color: #5e615b;
   text-align: center;
   font-size: 2.2rem;
-  font-weight: 500 !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
@@ -486,7 +488,7 @@ Main Components
   font-size: 65px !important;
   color: #fff;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 200;
   max-width: 674px;
   margin: 0 auto;
   margin-top: 220px;
@@ -1168,29 +1170,102 @@ Main Components
   font-family: 'Geometria-Medium', sans-serif;
 }
 
+/* --------------------------------------------------------------------------------------------- */
 /* Ajustes específicos por seção */
-.img-1 .cd-content h1, .img-1 .cd-content p {
-  font-family: 'Geometria-Medium', sans-serif;
-  color: #333;
-  /* Cinza escuro */
+.img-1 .cd-content {
+  font-family: 'Metropolis', sans-serif;
 }
 
-.img-2 .cd-content h1, .img-2 .cd-content p {
-  font-family: 'Geometria-Medium', sans-serif;
+/* Estiliza o texto do h1 com a fonte 'Madina' */
+.img-1 .cd-content h1 {
+  font-family: 'Metropolis' !important;
+  color: #474646;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 45px !important;
+  letter-spacing: -1px !important;
+  /* cor do texto */
+}
+
+/* Estiliza o texto do parágrafo com a fonte 'Madina' */
+.img-1 .cd-content p {
+  font-family: 'Geometria-Light', sans-serif !important;
+  color: #000000;
+  font-size: 18px !important;
+  line-height: 1.2;
+  /* cor do texto */
+}
+
+/* --------------------------------------------------------------------------------------------- */
+.img-2 .cd-content {
+  font-family: 'Geometria', sans-serif;
+}
+
+/* Estiliza o texto do h1 com a fonte 'Madina' */
+.img-2 .cd-content h1 {
+  font-family: 'Geometria' !important;
   color: #fff;
-  /* Branco */
+  font-weight: 500;
+  line-height: 0.9;
+  font-size: 45px !important;
+  letter-spacing: -2px !important;
+  /* cor do texto */
 }
 
-.img-3 .cd-content h1, .img-3 .cd-content p {
-  font-family: 'Geometria-Medium', sans-serif;
-  color: #444;
-  /* Cinza médio */
+/* Estiliza o texto do parágrafo com a fonte 'Madina' */
+.img-2 .cd-content p {
+  font-family: 'Geometria-Light', sans-serif !important;
+  color: #222020;
+  font-size: 18px !important;
+  line-height: 1.2;
+  /* cor do texto */
 }
 
-.img-4 .cd-content h1, .img-4 .cd-content p {
-  font-family: 'Madina', sans-serif !important;
+/* --------------------------------------------------------------------------------------------- */
+/* Aplica a fonte 'Madina' apenas aos elementos da seção .img-4 */
+.img-3 .cd-content {
+  font-family: 'Madina', sans-serif;
+}
+
+/* Estiliza o texto do h1 com a fonte 'Madina' */
+.img-3 .cd-content h1 {
+  font-family: 'Madina' !important;
   color: #fff;
-  /* Branco */
+  font-size: 60px !important;
+  /* cor do texto */
+}
+
+/* Estiliza o texto do parágrafo com a fonte 'Madina' */
+.img-3 .cd-content p {
+  font-family: 'Geometria-Light', sans-serif !important;
+  color: #222020;
+  font-size: 20px !important;
+  line-height: 1.2;
+  /* cor do texto */
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* Aplica a fonte 'Madina' apenas aos elementos da seção .img-4 */
+.img-4 .cd-content {
+  font-family: 'Madina', sans-serif;
+}
+
+/* Estiliza o texto do h1 com a fonte 'Madina' */
+.img-4 .cd-content h1 {
+  font-family: 'Madina' !important;
+  color: #fff;
+  font-size: 70px !important;
+  /* cor do texto */
+}
+
+/* Estiliza o texto do parágrafo com a fonte 'Madina' */
+.img-4 .cd-content p {
+  font-family: 'Geometria-Light', sans-serif !important;
+  color: #fff;
+  font-size: 20px !important;
+  line-height: 1.2;
+  /* cor do texto */
 }
 
 
