@@ -84,6 +84,8 @@
 			</div>
 			</div> -->
 
+
+
 				<div class="sec-1">
 
 					<div class="container text-container">
@@ -214,13 +216,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="right-click-area" onclick="openWebsite()"></div>
+
+		<!-- <div class="right-click-area" onclick="openWebsite()"></div> -->
 	</section>
-	<script>
-		function openWebsite() {
-			window.open('https://eletricistarudnik.vercel.app/', '_blank');
-		}
-	</script>
+
+	<!-- <script>
+        function openWebsite() {
+            window.open('https://www.seusite.com', '_blank');
+        }
+    </script> -->
 	<section class="cd-fixed-background img-4 light-background" data-type="slider-item">
 		<div class="cd-content light-background">
 			<h1 class="white-text">Margarida de Quadra</h1><br>
@@ -307,13 +311,21 @@
 	</section>
 	<nav>
 		<ul class="cd-vertical-nav">
-			<li><a href="#0" class="cd-prev inactive">Proximo</a></li>
-			<li><a href="#0" class="cd-next">Anterior</a></li>
+			<li><a href="#prev" class="cd-prev inactive">Proximo</a></li>
+			<li><a href="#next" class="cd-next">Anterior</a></li>
 		</ul>
 
 	</nav>
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var verticalNav = document.querySelector('.cd-vertical-nav');
+			if (verticalNav) {
+				verticalNav.style.display = 'block';
+			}
+		});
+	</script>
 </body>
 
 

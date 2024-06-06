@@ -304,9 +304,15 @@ Main Components
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  display: none;
   color: #32312f;
+  display: block !important;
+  /* Certifica-se de que o menu é exibido */
+  opacity: 1 !important;
+  /* Garante que o menu esteja visível */
+  visibility: visible !important;
+  /* Garante que o menu esteja visível */
 }
+
 
 .cd-vertical-nav a {
   display: block;
@@ -333,19 +339,12 @@ Main Components
   color: #32312f;
 }
 
-.cd-vertical-nav a.inactive {
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: opacity 0.2s 0s, visibility 0s 0.2s;
-  -moz-transition: opacity 0.2s 0s, visibility 0s 0.2s;
-  transition: opacity 0.2s 0s, visibility 0s 0.2s;
-  color: #32312f;
-}
+
 
 @media only screen and (min-width: 1200px) {
-  .cd-vertical-nav {
+  /* .cd-vertical-nav {
     display: block;
-  }
+  } */
 }
 
 /* Estilo padrão para o nav arrow e seu quadrado envolvente */
@@ -1434,5 +1433,6 @@ Main Components
   cursor: pointer;
   background: rgba(0, 0, 0, 0.05);
   z-index: -5;
-  /* Visível apenas para debug, pode ser removido */
 }
+
+;
