@@ -276,6 +276,10 @@ Main Components
   .cd-fixed-background.img-5 {
     background-image: url("../img/site5.webp");
   }
+
+  .cd-fixed-background.img-6 {
+    background-image: url("../img/site6.webp");
+  }
 }
 
 @media only screen and (min-width: 1048px) {
@@ -1188,7 +1192,7 @@ Main Components
 /* ------------------------------------------- 1 ------------------------------------------------- */
 /* Ajustes específicos por seção */
 .img-1 .cd-content {
-  font-family: 'Metropolis', sans-serif;
+  font-family: 'Geometria', sans-serif;
 }
 
 /* Estiliza o texto do h1 com a fonte 'Metropolis' */
@@ -1208,6 +1212,8 @@ Main Components
   color: #000000;
   font-size: 18px !important;
   line-height: 1.2;
+  font-weight: 800;
+
   /* cor do texto */
 }
 
@@ -1233,14 +1239,15 @@ Main Components
   color: #222020;
   font-size: 18px !important;
   line-height: 1.2;
+  font-weight: 800;
+
   /* cor do texto */
 }
 
 /* ------------------------------------------- 3 ------------------------------------------------- */
 /* Aplica a fonte 'Madina' apenas aos elementos da seção .img-4 */
 .img-3 .cd-content {
-  font-family: 'Titillium', sans-serif;
-  */
+  font-family: 'Geometria', sans-serif;
 }
 
 /* Estiliza o texto do h1 com a fonte 'Titillium' */
@@ -1258,6 +1265,8 @@ Main Components
   color: #222020;
   font-size: 18px !important;
   line-height: 1.2;
+  font-weight: 800;
+
   /* cor do texto */
 }
 
@@ -1265,8 +1274,9 @@ Main Components
 
 /* Aplica a fonte 'Madina' apenas aos elementos da seção .img-4 */
 .img-4 .cd-content {
-  font-family: 'Madina', sans-serif;
+  font-family: 'Metropolis', sans-serif;
 }
+
 
 /* Estiliza o texto do h1 com a fonte 'Madina' */
 .img-4 .cd-content h1 {
@@ -1283,18 +1293,20 @@ Main Components
   color: #fff;
   font-size: 18px !important;
   line-height: 1.2;
+  font-weight: 800;
+
   /* cor do texto */
 }
 
 
-/* ------------------------------------------- 4 ------------------------------------------------- */
+/* ------------------------------------------- 5 ------------------------------------------------- */
 
-/* Aplica a fonte 'Madina' apenas aos elementos da seção .img-5 */
+/* Aplica a fonte 'Nasalization' apenas aos elementos da seção .img-5 */
 .img-5 .cd-content {
-  font-family: 'Nasalization', sans-serif;
+  font-family: 'Geometria', sans-serif;
 }
 
-/* Estiliza o texto do h1 com a fonte 'Madina' */
+/* Estiliza o texto do h1 com a fonte 'Nasalization' */
 .img-5 .cd-content h1 {
   font-family: 'Nasalization' !important;
   color: #fff;
@@ -1309,6 +1321,32 @@ Main Components
   color: #fff;
   font-size: 18px !important;
   line-height: 1.2;
+  font-weight: 800;
+  /* cor do texto */
+}
+
+/* ------------------------------------------- 6 ------------------------------------------------- */
+
+/* Aplica a fonte 'Madina' apenas aos elementos da seção .img-6 */
+.img-6 .cd-content {
+  font-family: 'Geometria', sans-serif;
+}
+
+/* Estiliza o texto do h1 com a fonte 'Madina' */
+.img-6 .cd-content h1 {
+  font-family: 'Geometria' !important;
+  color: #6f5451;
+  font-size: 45px !important;
+  /* cor do texto */
+}
+
+/* Estiliza o texto do parágrafo com a fonte 'Madina' */
+.img-6 .cd-content p {
+  font-family: 'Geometria', sans-serif !important;
+  color: #6f5451 !important;
+  font-size: 18px !important;
+  line-height: 1.2;
+  font-weight: 800;
   /* cor do texto */
 }
 
@@ -1352,4 +1390,49 @@ Main Components
 
 .cd-vertical-nav .inactive {
   display: none;
+}
+
+
+.tool-cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tool-card-dark {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.tool-card-dark:hover {
+  background-color: #555;
+}
+
+.tool-card-light {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.tool-card-light:hover {
+  background-color: #8a8686;
+}
+
+.right-click-area {
+  position: absolute;
+  top: 10%;
+  bottom: 20%;
+  left: 60%;
+  right: 20%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: -5;
+  /* Visível apenas para debug, pode ser removido */
 }
