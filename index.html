@@ -136,6 +136,29 @@
 
 
 			<style>
+				.spinner {
+					position: fixed;
+					left: 50%;
+					top: 50%;
+					width: 50px;
+					height: 50px;
+					border: 5px solid rgba(0, 0, 0, 0.1);
+					border-radius: 50%;
+					border-top-color: #000;
+					animation: spin 1s ease infinite;
+					z-index: 1000;
+				}
+
+				@keyframes spin {
+					0% {
+						transform: rotate(0deg);
+					}
+
+					100% {
+						transform: rotate(360deg);
+					}
+				}
+
 				.special-btn,
 				.special-btn-two {
 					margin-right: 50px !important;
@@ -318,6 +341,7 @@
 	</nav>
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/loading.js"></script>
 	<script>
 		document.addEventListener("DOMContentLoaded", function () {
 			var verticalNav = document.querySelector('.cd-vertical-nav');
@@ -347,6 +371,7 @@
 <link rel="stylesheet" href="https://www.novajfpneus.com.br/site_themes/theme_0001/_assets/css/header.css">
 <link rel="stylesheet" href="https://www.novajfpneus.com.br/site_themes/theme_0001/_assets/css/footer.css">
 <link rel="stylesheet" href="https://www.novajfpneus.com.br/site_themes/theme_0001/_assets/css/style.css">
+
 
 <style>
 	/* Estilo padrão para o nav arrow */

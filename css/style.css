@@ -342,27 +342,9 @@ Main Components
 
 
 @media only screen and (min-width: 1200px) {
-  /* .cd-vertical-nav {
+  .cd-vertical-nav {
     display: block;
-  } */
-}
-
-/* Estilo padrão para o nav arrow e seu quadrado envolvente */
-.cd-vertical-nav a,
-.cd-vertical-nav a.cd-prev {
-  background-color: #ffffff00;
-  /* Cor de fundo clara */
-  color: #0f594d;
-  /* Cor do texto escura */
-}
-
-/* Estilo para seções com fundo escuro */
-.dark-background .cd-vertical-nav a,
-.dark-background .cd-vertical-nav a.cd-prev {
-  background-color: #0f594d;
-  /* Cor de fundo escura */
-  color: #ffffff;
-  /* Cor do texto clara */
+  }
 }
 
 
@@ -1387,10 +1369,20 @@ Main Components
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+
+.cd-vertical-nav .sec-1 .cd-next {
+  display: block !important;
+}
+
+/* Ocultar o botão apenas quando não houver seções para navegar abaixo */
 .cd-vertical-nav .inactive {
   display: none;
 }
 
+/* Mostrar apenas o botão "para baixo" na primeira seção */
+.cd-vertical-nav .sec-1 .cd-next {
+  display: block;
+}
 
 .tool-cards {
   display: flex;
