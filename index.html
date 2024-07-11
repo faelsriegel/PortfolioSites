@@ -21,322 +21,215 @@
 </head>
 
 <body>
-	<div id="loading-spinner" class="spinner"></div>
-	<div id="content" style="display:none;">
 
-		<header class="cd-header" data-type="slider-item" style="text-align: center;padding-top: -280px;">
-			<section class="cd-position-relative cd-z-index-1">
-				<div class="cd-position-relative cd-z-index-2">
-					<div class="header" id="header">
-						<div class="header-container">
-							<div class="navbar" id="navbar">
-								<div class="forlogo">
-									<a href="#home" title="Logo" class="logo" style="margin-top: -35px;">
-										<img src="./img/RSR.png" alt="logo" class="logo-light default" style="width: 100px; height: 90px;">
+
+	<header class="cd-header" data-type="slider-item" style="text-align: center;padding-top: -280px;">
+		<div class="cd-position-relative cd-z-index-1">
+			<div class="cd-position-relative cd-z-index-2">
+				<div class="header" id="header">
+					<div class="header-container">
+						<div class="navbar" id="navbar">
+							<div class="forlogo">
+								<a href="#home" title="Logo" class="logo" style="margin-top: -35px;">
+									<img src="./img/RSR.png" alt="logo" class="logo-light default" style="width: 100px; height: 90px;">
+								</a>
+							</div>
+						</div>
+						<div class="nav-bar">
+							<div class="navlinks">
+								<div class="navlink1">
+									<a class="nav-link nav1" href="#home">Home</a>
+									<a class="nav-link" href="https://rsrtech.vercel.app/" target="_blank">
+										Sobre
 									</a>
 								</div>
-							</div>
-							<div class="nav-bar">
-								<div class="navlinks">
-									<div class="navlink1">
-										<a class="nav-link nav1" href="#home">Home</a>
-										<a class="nav-link" href="https://rsrtech.vercel.app/" target="_blank">
-											Sobre
-										</a>
-									</div>
-									<div class="navlink2">
-										<a class="nav-link" href="https://api.whatsapp.com/send?phone=554799504840"
-											target="_blank">Contato</a>
-										<a class="nav-link" href="javascript:void(0);" onclick="compartilharQRCode()"
-											target="_blank">Compartilhar</a>
-									</div>
-
+								<div class="navlink2">
+									<a class="nav-link" href="https://api.whatsapp.com/send?phone=554799504840"
+										target="_blank">Contato</a>
+									<a class="nav-link" href="javascript:void(0);" onclick="compartilharQRCode()"
+										target="_blank">Compartilhar</a>
 								</div>
 							</div>
 						</div>
-					</div>
-					<!-- <div class="sidebar" id="sidebar">
-					<div class="inner-sidebar">
-						<div class="menubars" style="z-index: 10;">
-							<span class="close-btn" onclick="togglemenu()">
-								<i class="fa fa-times" aria-hidden="true"></i>
-							</span>
-						</div>
-
-						<a class="nav-link1 side-nav-link" href="#home">Home</a>
-						<div id="pdf-container-sidebar" style="display: none;">
-							<embed id="pdf-embed-sidebar" src="/font/CV_Margarida.pdf" type="application/pdf"
-								style="width: 0; height: 0; border: none;" />
-						</div>
-
-						<a class="nav-link1 side-nav-link" href="/font/CV_Margarida.pdf" target="_blank">Sobre
-						</a>
-						<a class="nav-link1 side-nav-link" href="https://api.whatsapp.com/send?phone=5547996114989"
-							target="_blank">Contato</a>
-						<a class="nav-link1 side-nav-link" href="javascript:void(0);" onclick="compartilharQRCode()"
-							target="_blank">Compartilhar</a>
-
-				
-
-			
-				<p class="company" target="_blank">© 2024 Portfolio de Sites. Desenvolvido por <a
-						href="https://rafaelsriegel.vercel.app/" target="_blank"> RSR Tech</a></p>
-
-			</div>
-			</div> -->
-
-
-
-					<div class="sec-1">
-
-						<div class="container text-container">
-							<div class="btn-text">
-								<div class="text">
-									<h2 class="main-text">Portfolio de Sites</h2>
-									<p class="para1">Website desenvolvido para divulgar os serviços de criação de websites,
-										apresentando
-										exemplos de soluções eficientes para promover sua presença
-										online.
-									</p>
-									<p class="para2">Clique no botão&nbsp; |&#x2B07;| &nbsp;à direita da tela para ver as
-										amostras</strong>
-									</p>
-									<div class="button-container">
-										<a class="btn btn-lblue btn-arrow" style="background-color: #3d3838;"
-											href="https://rsrtech.vercel.app/" target="_blank" title="Empresa RSR Tech">
-											<span>Saiba Mais&nbsp;&nbsp;
-												<svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512"
-													height="512">
-													<path
-														d="M17,11H13V7a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1v4H7a1,1,0,0,0-1,1H6a1,1,0,0,0,1,1h4v4a1,1,0,0,0,1,1h0a1,1,0,0,0,1-1V13h4a1,1,0,0,0,1-1h0A1,1,0,0,0,17,11Z" />
-												</svg>
-											</span>
-										</a>
-										<a class="btn btn-whatsapp btn-arrow" title="Entre em contato pelo Whatsapp"
-											href="https://api.whatsapp.com/send?phone=554799504840" target="_blank">
-											<span>FALE CONOSCO!&nbsp;&nbsp;&nbsp;
-												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-													id="mdi-whatsapp" width="24" height="24" viewBox="0 0 24 24">
-													<path
-														d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
-												</svg>
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-
-
-
-					<div>
 					</div>
 				</div>
+			</div>
+		</div>
 
 
-
-				<style>
-					.spinner {
-						position: fixed;
-						left: 50%;
-						top: 50%;
-						width: 50px;
-						height: 50px;
-						border: 5px solid rgba(0, 0, 0, 0.1);
-						border-radius: 50%;
-						border-top-color: #000;
-						animation: spin 1s ease infinite;
-						z-index: 1000;
-					}
-
-					@keyframes spin {
-						0% {
-							transform: rotate(0deg);
-						}
-
-						100% {
-							transform: rotate(360deg);
-						}
-					}
-
-					.special-btn,
-					.special-btn-two {
-						margin-right: 50px !important;
-
-					}
-
-					.special-btn:hover,
-					.special-btn-two:hover {
-						background-color: #f0f0f0;
-					}
-
-					.special-btn:hover svg {
-						margin-right: 1px !important;
-
-					}
-
-					.special-btn span,
-					.special-btn-two span {
-						display: inline-block;
-						vertical-align: middle;
-						font-family: 'Geometria-Medium', sans-serif !important;
-						font-weight: 500 !important;
-					}
+		<section class="sec-1">
+			<div class="container text-container">
+				<div class="btn-text">
+					<div class="text">
+						<h2 class="main-text">Portfolio de Sites</h2>
+						<p class="para1">Website desenvolvido para divulgar os serviços de criação de websites,
+							apresentando
+							exemplos de soluções eficientes para promover sua presença
+							online.
+						</p>
+						<p class="para2">Clique no botão&nbsp; |&#x2B07;| &nbsp;à direita da tela para ver as amostras</strong>
+						</p>
+						<div class="button-container">
+							<a class="btn btn-lblue btn-arrow" style="background-color: #3d3838;" href="https://rsrtech.vercel.app/"
+								target="_blank" title="Empresa RSR Tech">
+								<span>Saiba Mais&nbsp;&nbsp;
+									<svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512">
+										<path
+											d="M17,11H13V7a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1v4H7a1,1,0,0,0-1,1H6a1,1,0,0,0,1,1h4v4a1,1,0,0,0,1,1h0a1,1,0,0,0,1-1V13h4a1,1,0,0,0,1-1h0A1,1,0,0,0,17,11Z" />
+									</svg>
+								</span>
+							</a>
+							<a class="btn btn-whatsapp btn-arrow" title="Entre em contato pelo Whatsapp"
+								href="https://api.whatsapp.com/send?phone=554799504840" target="_blank">
+								<span>FALE CONOSCO!&nbsp;&nbsp;&nbsp;
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+										id="mdi-whatsapp" width="24" height="24" viewBox="0 0 24 24">
+										<path
+											d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+									</svg>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
-					.special-btn svg {
-						width: 24px;
-						height: 24px;
-						margin-right: -50px;
-						margin-top: -2px;
-					}
-
-					.special-btn-two svg {
-						width: 24px;
-						height: 24px;
-						margin-right: 0px;
-						margin-top: -3px;
-					}
-
-					.special-btn span,
-					.special-btn-two span {
-						display: inline-block;
-					}
-				</style>
-				<a href="https://wa.me/554799504840" title="Entre em contato pelo WhatsApp" target="_blank"
-					title="Entre em contato pelo whatsapp" class="special-btn"><svg xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-whatsapp" width="24" height="24"
-						viewBox="0 0 24 24">
+			<a href="https://wa.me/554799504840" title="Entre em contato pelo WhatsApp" target="_blank"
+				title="Entre em contato pelo whatsapp" class="special-btn"><svg xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-whatsapp" width="24" height="24"
+					viewBox="0 0 24 24">
+					<path
+						d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+				</svg><span>CONTATE-NOS</span></a><a href="tel:04799504840" title="Ligue para Nós" target="_blank"
+				class="special-btn-two"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 27.442 27.442"
+					style="enable-background:new 0 0 27.442 27.442;" xml:space="preserve">
+					<g>
 						<path
-							d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
-					</svg><span>CONTATE-NOS</span></a><a href="tel:04799504840" title="Ligue para Nós" target="_blank"
-					class="special-btn-two"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 27.442 27.442"
-						style="enable-background:new 0 0 27.442 27.442;" xml:space="preserve">
-						<g>
-							<path
-								d="M19.494,0H7.948C6.843,0,5.951,0.896,5.951,1.999v23.446c0,1.102,0.892,1.997,1.997,1.997h11.546 c1.103,0,1.997-0.895,1.997-1.997V1.999C21.491,0.896,20.597,0,19.494,0z M10.872,1.214h5.7c0.144,0,0.261,0.215,0.261,0.481 s-0.117,0.482-0.261,0.482h-5.7c-0.145,0-0.26-0.216-0.26-0.482C10.612,1.429,10.727,1.214,10.872,1.214z M13.722,25.469 c-0.703,0-1.275-0.572-1.275-1.276s0.572-1.274,1.275-1.274c0.701,0,1.273,0.57,1.273,1.274S14.423,25.469,13.722,25.469z  M19.995,21.1H7.448V3.373h12.547V21.1z" />
-						</g>
-					</svg><span>LIGUE JÁ !</span></a>
-			</section>
-		</header>
+							d="M19.494,0H7.948C6.843,0,5.951,0.896,5.951,1.999v23.446c0,1.102,0.892,1.997,1.997,1.997h11.546 c1.103,0,1.997-0.895,1.997-1.997V1.999C21.491,0.896,20.597,0,19.494,0z M10.872,1.214h5.7c0.144,0,0.261,0.215,0.261,0.481 s-0.117,0.482-0.261,0.482h-5.7c-0.145,0-0.26-0.216-0.26-0.482C10.612,1.429,10.727,1.214,10.872,1.214z M13.722,25.469 c-0.703,0-1.275-0.572-1.275-1.276s0.572-1.274,1.275-1.274c0.701,0,1.273,0.57,1.273,1.274S14.423,25.469,13.722,25.469z  M19.995,21.1H7.448V3.373h12.547V21.1z" />
+					</g>
+				</svg><span>LIGUE JÁ !</span></a>
+		</section>
+	</header>
 
 
 
-
-
-		<section class="cd-fixed-background img-1 light-background" data-type="slider-item">
-			<div class="cd-content light-background">
-				<h1>Eletricista Rudnik</h1><br>
-				<p>Website destinado à divulgação dos serviços prestados pelo Eletricista Rudnik. Este site foi concebido para
-					atender de forma específica às demandas do cliente,
-					proporcionando um ambiente online que evidencia seus serviços de maneira profissional.</p><br>
-				<div class="tools-section">
-					<div class="tool-cards">
-						<div class="tool-card-dark">HTML</div>
-						<div class="tool-card-dark">CSS</div>
-						<div class="tool-card-dark">JavaScript</div>
-					</div>
+	<section class="cd-fixed-background img-1 light-background" data-type="slider-item">
+		<div class="cd-content light-background">
+			<h1>Eletricista Rudnik</h1><br>
+			<p>Website destinado à divulgação dos serviços prestados pelo Eletricista Rudnik. Este site foi concebido para
+				atender de forma específica às demandas do cliente,
+				proporcionando um ambiente online que evidencia seus serviços de maneira profissional.</p><br>
+			<div class="tools-section">
+				<div class="tool-cards">
+					<div class="tool-card-dark">HTML</div>
+					<div class="tool-card-dark">CSS</div>
+					<div class="tool-card-dark">JavaScript</div>
 				</div>
 			</div>
+		</div>
+	</section>
 
-			<!-- <div class="right-click-area" onclick="openWebsite()"></div> -->
-		</section>
-
-		<!-- <script>
+	<!-- <script>
         function openWebsite() {
             window.open('https://www.seusite.com', '_blank');
         }
     </script> -->
-		<section class="cd-fixed-background img-4 light-background" data-type="slider-item">
-			<div class="cd-content light-background">
-				<h1 class="white-text">Margarida de Quadra</h1><br>
-				<p class="white-text">Website voltado para promover os serviços prestados por Margarida de Quadra. Com o intuito
-					de ser um espaço online que enfatiza seus serviços de maneira profissional,
-					além de facilitar o contato com os clientes.</p><br>
-				<div class="tools-section">
-					<div class="tool-cards">
-						<div class="tool-card-light">HTML</div>
-						<div class="tool-card-light">CSS</div>
-						<div class="tool-card-light">JavaScript</div>
-					</div>
+	<section class="cd-fixed-background img-4 light-background" data-type="slider-item">
+		<div class="cd-content light-background">
+			<h1 class="white-text">Margarida de Quadra</h1><br>
+			<p class="white-text">Website voltado para promover os serviços prestados por Margarida de Quadra. Com o intuito
+				de ser um espaço online que enfatiza seus serviços de maneira profissional,
+				além de facilitar o contato com os clientes.</p><br>
+			<div class="tools-section">
+				<div class="tool-cards">
+					<div class="tool-card-light">HTML</div>
+					<div class="tool-card-light">CSS</div>
+					<div class="tool-card-light">JavaScript</div>
 				</div>
 			</div>
-		</section>
-		<section class="cd-fixed-background img-2 dark-background" data-type="slider-item">
-			<div class="cd-content dark-background">
-				<h1 class="white-text">Sistema Analítico de <br>Progressão Universitaria</h1><br>
-				<p class="white-text">Solução para
-					atender às necessidades do ambiente acadêmico dos cursos superiores. Funcionando como um aplicativo
-					web,
-					ele oferece uma plataforma centralizada para gerenciar,
-					controlar e analisar a progressão dos estudantes ao longo do curso.</p><br>
-				<div class="tools-section">
-					<div class="tool-cards">
-						<div class="tool-card-light">TypeScript</div>
-						<div class="tool-card-light">Tailwind</div>
-						<div class="tool-card-light">Next.js</div>
-						<div class="tool-card-light">React</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="cd-fixed-background img-5 dark-background" data-type="slider-item">
-			<div class="cd-content dark-background">
-				<h1>ZenBookee</h1><br>
-				<p>Aplicativo Web com ferramentas para contabilidades, que conta com automações (bots), modificações de
-					planilhas
-					para
-					importação em sistemas contábeis e gerador de e-mails.</p><br>
-				<div class="tools-section">
-					<div class="tool-cards">
-						<div class="tool-card-light">HTML</div>
-						<div class="tool-card-light">CSS</div>
-						<div class="tool-card-light">Python</div>
-						<div class="tool-card-light">Django</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="cd-fixed-background img-6 light-background" data-type="slider-item">
-			<div class="cd-content light-background">
-				<h1>Pão da Nati</h1><br>
-				<p>O website do Pão da Nati é focado na divulgação dos produtos artesanais da padaria, oferecendo aos clientes
-					uma
-					experiência de navegação intuitiva e informativa. Destacando a conveniência do e-commerce simplificado que
-					integra as plataformas iFood e Pedidos10.
-				</p><br>
-				<div class="tools-section">
-					<div class="tool-cards">
-						<div class="tool-card-light">WordPress</div>
-						<div class="tool-card-light">RankSEO</div>
-						<div class="tool-card-light">Google Analytics</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="cd-fixed-background img-3 light-background" data-type="slider-item">
-			<div class="cd-content light-background">
-				<h1>Neto' Car - Oficina Mecânica</h1><br>
-				<p>Website com om um design moderno e
-					intuitivo,
-					o website oferece uma plataforma eficaz para promover seus serviços e estabelecer sua presença online,
-					contribuindo para sua visibilidade e sucesso no mercado automotivo.</p><br>
-				<div class="tools-section">
-					<div class="tool-cards">
-						<div class="tool-card-dark">HTML</div>
-						<div class="tool-card-dark">CSS</div>
-						<div class="tool-card-dark">JavaScript</div>
-					</div>
-				</div>
-			</div>
-	</div>
-
+		</div>
 	</section>
+
+
+	<section class="cd-fixed-background img-2 dark-background" data-type="slider-item">
+		<div class="cd-content dark-background">
+			<h1 class="white-text">Sistema Analítico de <br>Progressão Universitaria</h1><br>
+			<p class="white-text">Solução para
+				atender às necessidades do ambiente acadêmico dos cursos superiores. Funcionando como um aplicativo
+				web,
+				ele oferece uma plataforma centralizada para gerenciar,
+				controlar e analisar a progressão dos estudantes ao longo do curso.</p><br>
+			<div class="tools-section">
+				<div class="tool-cards">
+					<div class="tool-card-light">TypeScript</div>
+					<div class="tool-card-light">Tailwind</div>
+					<div class="tool-card-light">Next.js</div>
+					<div class="tool-card-light">React</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="cd-fixed-background img-5 dark-background" data-type="slider-item">
+		<div class="cd-content dark-background">
+			<h1>ZenBookee</h1><br>
+			<p>Aplicativo Web com ferramentas para contabilidades, que conta com automações (bots), modificações de
+				planilhas
+				para
+				importação em sistemas contábeis e gerador de e-mails.</p><br>
+			<div class="tools-section">
+				<div class="tool-cards">
+					<div class="tool-card-light">HTML</div>
+					<div class="tool-card-light">CSS</div>
+					<div class="tool-card-light">Python</div>
+					<div class="tool-card-light">Django</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="cd-fixed-background img-6 light-background" data-type="slider-item">
+		<div class="cd-content light-background">
+			<h1>Pão da Nati</h1><br>
+			<p>O website do Pão da Nati é focado na divulgação dos produtos artesanais da padaria, oferecendo aos clientes
+				uma
+				experiência de navegação intuitiva e informativa. Destacando a conveniência do e-commerce simplificado que
+				integra as plataformas iFood e Pedidos10.
+			</p><br>
+			<div class="tools-section">
+				<div class="tool-cards">
+					<div class="tool-card-light">WordPress</div>
+					<div class="tool-card-light">RankSEO</div>
+					<div class="tool-card-light">Google Analytics</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="cd-fixed-background img-3 light-background" data-type="slider-item">
+		<div class="cd-content light-background">
+			<h1>Neto' Car - Oficina Mecânica</h1><br>
+			<p>Website com om um design moderno e
+				intuitivo,
+				o website oferece uma plataforma eficaz para promover seus serviços e estabelecer sua presença online,
+				contribuindo para sua visibilidade e sucesso no mercado automotivo.</p><br>
+			<div class="tools-section">
+				<div class="tool-cards">
+					<div class="tool-card-dark">HTML</div>
+					<div class="tool-card-dark">CSS</div>
+					<div class="tool-card-dark">JavaScript</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+
 	<nav>
 		<ul class="cd-vertical-nav">
 			<li><a href="#prev" class="cd-prev inactive">Proximo</a></li>
@@ -355,6 +248,8 @@
 			}
 		});
 	</script>
+	<!-- <div id="loading-spinner" class="spinner"></div>
+	<div id="content" style="display:none;"></div> -->
 </body>
 
 
@@ -379,6 +274,73 @@
 
 
 <style>
+	/* .spinner {
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		width: 50px;
+		height: 50px;
+		border: 5px solid rgba(0, 0, 0, 0.1);
+		border-radius: 50%;
+		border-top-color: #000;
+		animation: spin 1s ease infinite;
+		z-index: 1000;
+	}
+
+	@keyframes spin {
+		0% {
+			transform: rotate(0deg);
+		}
+
+		100% {
+			transform: rotate(360deg);
+		}
+	} */
+
+	.special-btn,
+	.special-btn-two {
+		margin-right: 50px !important;
+
+	}
+
+	.special-btn:hover,
+	.special-btn-two:hover {
+		background-color: #f0f0f0;
+	}
+
+	.special-btn:hover svg {
+		margin-right: 1px !important;
+
+	}
+
+	.special-btn span,
+	.special-btn-two span {
+		display: inline-block;
+		vertical-align: middle;
+		font-family: 'Geometria-Medium', sans-serif !important;
+		font-weight: 500 !important;
+	}
+
+
+	.special-btn svg {
+		width: 24px;
+		height: 24px;
+		margin-right: -50px;
+		margin-top: -2px;
+	}
+
+	.special-btn-two svg {
+		width: 24px;
+		height: 24px;
+		margin-right: 0px;
+		margin-top: -3px;
+	}
+
+	.special-btn span,
+	.special-btn-two span {
+		display: inline-block;
+	}
+
 	/* Estilo padrão para o nav arrow */
 	.cd-vertical-nav a {
 		color: #ffffff !important;
