@@ -37,24 +37,39 @@ function scrolltop(){
 }
 scrolltopbtn.addEventListener("click", scrolltop);
 
-// Adiciona o evento de clique ao elemento com o ID 'compartilharLink'
-document.getElementById('compartilharLink').addEventListener('click', compartilharQRCode);
-													
 function compartilharQRCode() {
-    // Substitua 'URL-do-seu-site' pela URL real do seu site
-    var urlDoSite = 'https://margaridadequadra.vercel.app';
-    
-    // Substitua 'Caminho-do-seu-QRCode.png' pelo caminho real da sua imagem QR Code
-    var caminhoDoQRCode = "./i";
+    // URL do site que será compartilhada
+    var urlDoSite = 'https://portfoliosites.vercel.app/';
 
-    // Cria um link de compartilhamento
-    var linkDeCompartilhamento = 'whatsapp://send?text=' + encodeURIComponent('Confira este QR Code para ir ao site de Margarida de Quadra: ' + urlDoSite);
-    
-    // Adiciona a imagem ao link de compartilhamento
-    linkDeCompartilhamento += '&image=' + encodeURIComponent(caminhoDoQRCode);
-    
-    // Abre o link de compartilhamento em uma nova janela ou guia
-    window.open(linkDeCompartilhamento, '_blank');
+    // Caminho para a imagem do QR Code
+    var caminhoDoQRCode = './images/qrcode.png';
+
+    // Cria o texto de compartilhamento
+    var textoCompartilhamento = 'Acesse o site para saber mais: ';
+
+    // Verifica se a API de compartilhamento nativa está disponível (para dispositivos móveis)
+    if (navigator.share) {
+        navigator.share({
+            title: 'QR Code do Portfloio de Sites',
+            text: textoCompartilhamento,
+            url: urlDoSite
+        }).then(() => {
+            console.log('Compartilhamento realizado com sucesso');
+        }).catch((error) => {
+            console.error('Erro ao compartilhar:', error);
+        });
+    } else {
+        // Se a API de compartilhamento não estiver disponível, abre o link do WhatsApp sem a imagem
+        var linkDeCompartilhamento = 'whatsapp://send?text=' + encodeURIComponent(textoCompartilhamento);
+        
+        // Abre o link de compartilhamento em uma nova janela
+        window.open(linkDeCompartilhamento, '_blank');
+    }
 }
 
+// Função para abrir o QR Code em uma nova aba
+function abrirQRCode() {
+    var caminhoDoQRCode = './images/qrcode.png';
+    window.open(caminhoDoQRCode, '_blank');
+}
 
