@@ -57,3 +57,4 @@ function compartilharQRCode() {
     window.open(linkDeCompartilhamento, '_blank');
 }
 
+

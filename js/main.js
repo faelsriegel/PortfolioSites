@@ -74,3 +74,4 @@ jQuery(document).ready(function($){
         $('body,html').animate({'scrollTop': target.offset().top}, 500, function(){ animating = false; });
 	}
 });
+
