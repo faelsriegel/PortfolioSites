@@ -1,7 +1,4 @@
 @media only screen and (max-width: 1200px) {
-  .text h2 {
-    font-size: 80px;
-  }
 
   .text .para1 {
     max-width: 600px;
@@ -12,29 +9,26 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .text h2 {
-    font-size: 65px !important;
+    font-size: 60px !important;
     color: #fff;
-    line-height: 1;
+    line-height: 1.2;
     font-weight: 500;
     max-width: 674px;
     margin: 0 auto;
-    margin-top: 500px;
-    margin-bottom: 160px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     font-family: 'Geometria-Medium', sans-serif !important;
-    letter-spacing: -3px !important;
-    /* Reduz o espaçamento entre as letras */
+    letter-spacing: -2px !important;
   }
-
 
   .text .para1 {
     color: #fff !important;
-    /* margin: 0 auto; */
-    margin-top: -50px;
-    margin-bottom: 0px;
+    margin-top: -30px;
+    margin-bottom: 0;
     max-width: 800px;
     font-family: 'Geometria-Light', sans-serif !important;
     font-weight: 300 !important;
@@ -42,22 +36,19 @@
 
   .text .para2 {
     color: #fff !important;
-    /* margin: 0 auto; */
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     max-width: 800px;
     font-family: 'Geometria-Medium', sans-serif !important;
     font-weight: 500 !important;
   }
 
-
   .sec-1 .text .btn {
     font-size: 14px;
-    margin-top: -30px;
+    margin-top: -20px;
     font-family: 'Geometria-Medium', sans-serif;
     font-weight: 500;
     border: 1px solid #d1d0d0;
-
   }
 
   .overlay {
@@ -68,47 +59,114 @@
   }
 }
 
+@media only screen and (max-width: 992px) {
 
-@media only screen and (max-width: 778px) {
   .text h2 {
-    font-size: 80px;
+    font-size: 40px !important;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 500;
+    max-width: 674px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Geometria-Medium', sans-serif !important;
+    letter-spacing: -2px !important;
   }
 
   .text .para1 {
-    max-width: 600px;
+    color: #fff !important;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-family: 'Geometria-Light', sans-serif !important;
+    font-weight: 300 !important;
   }
 
-  .sec-9 .container {
-    width: 90%;
-    margin: 0 auto;
+  .text .para2 {
+    display: none;
+    color: #fff !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 800px;
+    font-family: 'Geometria-Medium', sans-serif !important;
+    font-weight: 500 !important;
   }
 
-  .sec-9 {
-    padding-top: -80px 0;
+  .sec-1 .text .btn {
+    font-size: 14px;
+    margin-top: 120px;
+    font-family: 'Geometria-Medium', sans-serif;
+    font-weight: 500;
+    border: 1px solid #d1d0d0;
+  }
+
+  .overlay {
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 }
 
+.sec-9 .container {
+  width: 90%;
+  margin: 0 auto;
+}
 
-@media only screen and (max-width: 380px) {
+.sec-9 {
+  padding: 0;
+}
+
+.nav-bar .navlinks {
+  display: none;
+}
+
+.navbar .forlogo .logo {
+  left: 10%;
+}
+
+.menubars {
+  top: 10px;
+  left: 90%;
+}
+
+.overlay {
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 778px) {
+  .text h2 {
+    font-size: 30px !important;
+  }
+
+  /* .text .para1 {
+    max-width: 400px;
+  } */
 
   .sec-9 .text-img .mobile-app .column2 {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: -10.5rem;
     width: 100%;
-    padding: 0px;
+    padding: 0;
   }
 
   .sec-9 .text-img .mobile-app {
     align-items: center;
+    flex-direction: column;
   }
 
   .sec-9 {
-    padding: 72px 0;
+    padding: 60px 0;
   }
 
   .sec-9 .text7 h2 {
     text-align: center;
+    font-size: 30px;
   }
 
   .sec-9 .text7 p {
@@ -117,7 +175,6 @@
 
   .sec-9 .text-img .mobile-app .column1 {
     width: 100%;
-
   }
 
   .sec-9 .text-img .mobile-app .column2 {
@@ -125,113 +182,12 @@
   }
 
   .sec-10 .contact .text8 {
-    padding: 72px 0;
-  }
-
-  .sec-9 .text7 h2 {
-    font-size: 35px;
-  }
-
-  .sec-2 .sideview .contain .text1 {
-    text-align: center;
-  }
-
-  .sec-2 .sideview .contain .text1 .big-text {
-    font-size: 35px;
-  }
-
-}
-
-@media only screen and (max-width: 767px) {
-
-  .sec-9 .text-img .mobile-app .column2 {
-    text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: -10.5rem;
-    width: 100%;
-    padding: 0px;
-  }
-
-
-  .sec-9 .mobile-app {
-    flex-direction: column;
-  }
-
-  .footer {
-    padding: 72px 0;
-  }
-
-  .overlay {
-    height: 100%;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-
-  .sec-9 .text7 p {
-    width: 100%;
-  }
-
-  .sec-9 .text-img .mobile-app {
-    width: 100%;
-  }
-
-  .sec-9 .text-img .mobile-app .column1 .app-feature .small-para {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .sec-9 .text-img .mobile-app .column1 {
-
-    width: 100%;
-
-  }
-
-  /* .sec-10 .contact .text8 {
-  padding: 120px 0;
-} */
-}
-
-@media only screen and (max-width: 992px) {
-  .nav-bar .navlinks {
-    /* display: none; */
-  }
-
-  .navbar .forlogo .logo {
-    left: 10%;
-  }
-
-  .menubars {
-    top: 10px;
-    left: 90%;
-  }
-
-  .overlay {
-    height: 100%;
-    top: 0;
-    left: 0;
-    width: 100%;
+    padding: 60px 0;
   }
 }
 
-@media only screen and (max-width: 576px) {
-  .overlay {
-    height: 100%;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-}
 
-@media only screen and (max-width: 350px) {
-  .btn button {
-    padding: 13px 28px;
+@media only screen and (max-width: 380px) {
+  .text h2 {
+    font-size: 20px !important;
   }
-
-  .overlay {
-    height: 100%;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-}
